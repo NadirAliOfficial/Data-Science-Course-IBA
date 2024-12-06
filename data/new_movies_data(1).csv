@@ -1,0 +1,151 @@
+Movie_ID,Title,Release_Year,Genre,Director,Box_Office,IMDB_Rating,Duration_Minutes
+4101,Winter's End,2001,Action,Greta Gerwig,1868940106.04,8.1,145
+4102,Winter's End,2007,Drama,Christopher Nolan,1173195862.03,7.9,150
+4103,Final Battle,2005,Romance,Wes Anderson,1400355004.75,6.5,122
+4104,Nightfall,1981,Drama,Steven Spielberg,1212907742.13,8.2,191
+4105,The Lost City,2002,Comedy,Christopher Nolan,503362490.28,3.8,96
+4106,Final Battle,1997,Comedy,Steven Spielberg,64458677.85,9.7,181
+4107,Into the Wild,1993,Thriller,Ridley Scott,1949542660.1,8.0,190
+4108,Nightfall,2010,Romance,Christopher Nolan,1365313426.49,7.1,135
+4109,Silent Echo,1985,Adventure,Christopher Nolan,1102341026.17,4.5,82
+4110,Galactic Storm,1993,Drama,Steven Spielberg,1456161008.53,5.1,96
+4111,Final Battle,2023,Drama,Wes Anderson,722884498.1,5.6,126
+4112,Into the Wild,1982,Sci-Fi,James Cameron,1568834559.46,4.5,138
+4113,Galactic Storm,2007,Adventure,James Cameron,948825070.09,5.4,127
+4114,Final Battle,2018,Adventure,Ridley Scott,1533634347.74,9.9,128
+4115,Into the Wild,1996,Comedy,Wes Anderson,675921071.4,5.1,183
+4116,The Awakening,2011,Action,Steven Spielberg,1985433443.96,3.5,198
+4117,Winter's End,2005,Horror,Greta Gerwig,813198013.0,7.4,183
+4118,The Awakening,1991,Horror,Christopher Nolan,1416868805.46,6.7,103
+4119,Silent Echo,1985,Drama,Greta Gerwig,87658241.59,3.9,198
+4120,The Lost City,1985,Comedy,Greta Gerwig,388448569.0,6.3,128
+4121,Final Battle,1993,Horror,Wes Anderson,317144667.9,7.5,100
+4122,Into the Wild,2003,Romance,Steven Spielberg,1384101332.51,7.4,157
+4123,Final Battle,1981,Thriller,James Cameron,1208215026.42,5.1,134
+4124,Nightfall,2009,Sci-Fi,James Cameron,1314243628.49,7.7,121
+4125,Eternal Flame,2012,Horror,Ridley Scott,5361694.55,8.7,151
+4126,Galactic Storm,1977,Sci-Fi,James Cameron,732373020.81,3.6,156
+4127,Winter's End,1979,Sci-Fi,Wes Anderson,1618080602.93,5.9,108
+4128,The Lost City,2015,Adventure,Ridley Scott,1188709736.72,9.8,131
+4129,The Awakening,1986,Drama,Ridley Scott,1193497303.3,5.3,139
+4130,Revenge,2016,Comedy,Greta Gerwig,1233117387.36,4.4,116
+4131,Nightfall,1996,Comedy,Steven Spielberg,832157369.28,6.8,158
+4132,Eternal Flame,1985,Horror,James Cameron,1956443368.89,5.0,91
+4133,The Lost City,2022,Horror,James Cameron,1926177862.57,3.4,173
+4134,Winter's End,1985,Horror,Wes Anderson,915426431.96,9.3,121
+4135,Winter's End,2007,Thriller,Ridley Scott,1934806984.58,4.7,142
+4136,Silent Echo,2021,Drama,Wes Anderson,1744031411.47,7.8,92
+4137,The Lost City,2022,Action,Christopher Nolan,792568331.84,7.8,100
+4138,Final Battle,2000,Adventure,Wes Anderson,991793288.14,6.6,139
+4139,The Awakening,2020,Horror,Christopher Nolan,855376017.2,5.6,139
+4140,The Lost City,2021,Horror,Greta Gerwig,183821334.75,6.9,110
+4141,Final Battle,2015,Adventure,Steven Spielberg,1155871986.11,9.1,133
+4142,Silent Echo,2002,Comedy,Ridley Scott,890552779.02,3.7,115
+4143,The Lost City,1987,Action,Greta Gerwig,1475187046.27,3.6,120
+4144,Silent Echo,1983,Thriller,Ridley Scott,118749960.74,7.8,187
+4145,Into the Wild,2018,Sci-Fi,James Cameron,1552024721.32,4.2,145
+4146,Eternal Flame,1995,Drama,Wes Anderson,164273385.06,3.0,168
+4147,Into the Wild,1984,Drama,Greta Gerwig,1823815439.95,8.8,185
+4148,Galactic Storm,2021,Romance,Ridley Scott,1618826275.87,2.8,126
+4149,Revenge,2022,Sci-Fi,Steven Spielberg,490066508.68,8.2,189
+4150,Eternal Flame,1998,Thriller,Wes Anderson,302150300.85,5.0,160
+4151,Silent Echo,2005,Comedy,Ridley Scott,1459677790.48,8.1,188
+4152,Nightfall,2015,Romance,Greta Gerwig,1282340941.54,8.1,103
+4153,The Lost City,1990,Action,Ridley Scott,865120068.67,4.1,197
+4154,Final Battle,2012,Drama,Greta Gerwig,1141549065.8,3.9,149
+4155,The Lost City,1977,Comedy,James Cameron,748822250.01,2.5,129
+4156,The Lost City,1975,Action,Christopher Nolan,1821020587.94,8.8,128
+4157,Galactic Storm,2012,Thriller,Ridley Scott,397411411.38,7.7,148
+4158,Final Battle,2010,Horror,Christopher Nolan,671295488.15,3.0,185
+4159,Revenge,1992,Romance,Steven Spielberg,1645285217.42,7.6,191
+4160,Galactic Storm,1986,Adventure,Greta Gerwig,1022330900.78,3.8,159
+4161,Into the Wild,1994,Drama,Christopher Nolan,1172191686.15,7.9,194
+4162,Final Battle,1986,Drama,Greta Gerwig,1544105761.75,5.4,189
+4163,Revenge,2008,Adventure,Christopher Nolan,1252894149.25,3.2,114
+4164,Revenge,1993,Drama,Greta Gerwig,730876057.67,10.0,95
+4165,The Lost City,2014,Sci-Fi,Steven Spielberg,231921043.17,5.5,194
+4166,Final Battle,1978,Horror,Wes Anderson,1058108071.32,4.4,124
+4167,Final Battle,1995,Drama,Ridley Scott,458096345.7,3.6,107
+4168,Silent Echo,1986,Action,Christopher Nolan,1756071503.53,7.8,109
+4169,Eternal Flame,1992,Adventure,James Cameron,1127874136.89,8.2,193
+4170,Revenge,2015,Comedy,Christopher Nolan,1075375688.22,6.6,188
+4171,Revenge,2017,Drama,Christopher Nolan,879661598.79,8.6,119
+4172,The Lost City,1985,Thriller,Wes Anderson,1304962365.71,3.6,190
+4173,Winter's End,2014,Drama,Greta Gerwig,166499505.05,7.1,198
+4174,Final Battle,1990,Sci-Fi,Christopher Nolan,1078606971.01,5.4,168
+4175,The Awakening,2013,Romance,Steven Spielberg,1235213143.38,7.4,116
+4176,Nightfall,2017,Romance,Wes Anderson,1689009693.47,9.5,147
+4177,The Awakening,2013,Comedy,James Cameron,719363582.05,6.6,111
+4178,The Awakening,2005,Action,James Cameron,1916649769.1,7.5,177
+4179,The Lost City,1998,Action,Greta Gerwig,801281903.86,9.2,84
+4180,Winter's End,1982,Horror,James Cameron,1582856440.27,8.9,132
+4181,Revenge,1999,Action,Steven Spielberg,1254346254.88,3.0,183
+4182,Final Battle,2021,Sci-Fi,Wes Anderson,1471356937.03,3.5,161
+4183,Eternal Flame,1991,Adventure,Wes Anderson,235944487.92,6.5,103
+4184,Revenge,2009,Drama,Wes Anderson,1896366147.32,4.0,139
+4185,Nightfall,1987,Action,Steven Spielberg,243164000.14,3.7,105
+4186,Winter's End,1980,Action,Greta Gerwig,752500780.73,9.3,93
+4187,Revenge,2008,Romance,Christopher Nolan,1843947423.08,2.6,141
+4188,Silent Echo,2023,Adventure,Christopher Nolan,1964735205.04,2.6,99
+4189,Nightfall,2007,Romance,Christopher Nolan,835290420.24,6.1,129
+4190,The Awakening,2008,Drama,Christopher Nolan,226037317.33,8.3,167
+4191,Galactic Storm,2000,Comedy,Steven Spielberg,198242565.94,5.5,162
+4192,The Lost City,2003,Horror,Christopher Nolan,1938197011.11,6.1,187
+4193,Final Battle,2021,Drama,Christopher Nolan,717179824.05,7.3,123
+4194,Into the Wild,1993,Thriller,Christopher Nolan,1743366707.69,2.2,161
+4195,Eternal Flame,2007,Sci-Fi,James Cameron,1232798227.54,2.2,95
+4196,Winter's End,1993,Sci-Fi,Ridley Scott,1272380527.02,4.5,124
+4197,Silent Echo,2005,Comedy,Ridley Scott,1204562391.22,3.9,169
+4198,Eternal Flame,1993,Adventure,Steven Spielberg,1311330436.53,9.1,99
+4199,Revenge,2019,Romance,Steven Spielberg,1965134862.64,7.4,125
+4200,Eternal Flame,1976,Comedy,Greta Gerwig,770234594.34,2.3,195
+4201,Galactic Storm,1976,Romance,Greta Gerwig,182424546.79,9.5,86
+4202,Nightfall,1978,Horror,Wes Anderson,819871046.55,7.6,198
+4203,The Awakening,2019,Thriller,Christopher Nolan,187739711.74,4.6,119
+4204,The Lost City,1975,Thriller,Greta Gerwig,1176421232.38,5.8,161
+4205,The Lost City,1977,Adventure,James Cameron,1329075273.71,2.0,80
+4206,Final Battle,1987,Sci-Fi,Christopher Nolan,46198069.4,2.9,196
+4207,Nightfall,1985,Adventure,Christopher Nolan,290339107.19,4.1,195
+4208,Final Battle,2004,Sci-Fi,Greta Gerwig,454871808.61,7.1,140
+4209,Revenge,2013,Adventure,Greta Gerwig,1580160334.75,3.3,142
+4210,Revenge,2014,Horror,Steven Spielberg,878815940.59,3.9,102
+4211,Nightfall,2000,Romance,Wes Anderson,1309260976.6,8.9,198
+4212,Nightfall,1982,Sci-Fi,Steven Spielberg,651177589.3,4.3,85
+4213,Into the Wild,2023,Action,Greta Gerwig,1095499270.77,7.4,120
+4214,Galactic Storm,1994,Drama,Ridley Scott,573043274.1,4.4,124
+4215,Eternal Flame,2009,Drama,Wes Anderson,1968006851.27,7.6,95
+4216,Nightfall,1987,Thriller,Greta Gerwig,415490963.35,4.1,188
+4217,Eternal Flame,1996,Thriller,Wes Anderson,527085651.09,7.3,196
+4218,Galactic Storm,1981,Romance,Christopher Nolan,1994393922.3,5.9,133
+4219,Revenge,1983,Horror,Christopher Nolan,711403498.91,3.7,104
+4220,The Awakening,1980,Drama,Christopher Nolan,123955069.17,8.8,176
+4221,Into the Wild,1976,Drama,Ridley Scott,1093854659.71,4.3,182
+4222,Eternal Flame,2013,Thriller,Ridley Scott,1327581828.36,8.2,192
+4223,Into the Wild,1995,Sci-Fi,Steven Spielberg,555291756.57,7.2,102
+4224,Silent Echo,2018,Comedy,Christopher Nolan,572612000.95,4.3,115
+4225,Revenge,2013,Thriller,Greta Gerwig,1421161261.29,9.6,183
+4226,Into the Wild,1992,Action,Ridley Scott,1040596706.51,4.4,182
+4227,Silent Echo,2022,Adventure,Ridley Scott,624623510.13,9.6,153
+4228,Eternal Flame,1987,Comedy,Christopher Nolan,835950734.44,6.0,198
+4229,The Lost City,2016,Adventure,Steven Spielberg,1074799152.84,3.7,107
+4230,Nightfall,2002,Comedy,Greta Gerwig,1517717597.89,6.6,151
+4231,The Awakening,1982,Romance,Wes Anderson,1523832391.02,5.5,190
+4232,Winter's End,2014,Drama,Wes Anderson,1106326495.25,3.4,98
+4233,Eternal Flame,1986,Romance,Steven Spielberg,1579590235.25,6.9,188
+4234,Galactic Storm,1975,Thriller,Wes Anderson,1464748778.33,6.7,127
+4235,The Lost City,2018,Sci-Fi,Steven Spielberg,27273561.63,8.1,122
+4236,Eternal Flame,2008,Horror,Christopher Nolan,1526942152.94,9.8,120
+4237,Into the Wild,1986,Adventure,Christopher Nolan,1941298463.54,6.0,144
+4238,Silent Echo,2001,Sci-Fi,Ridley Scott,1363833025.46,8.2,88
+4239,The Lost City,1977,Drama,Steven Spielberg,1993877550.27,6.9,146
+4240,Nightfall,2001,Romance,Christopher Nolan,1113612485.8,9.1,108
+4241,The Lost City,1992,Drama,Ridley Scott,1909240735.24,5.9,153
+4242,Winter's End,2009,Adventure,Wes Anderson,1108099450.56,8.8,90
+4243,Revenge,2000,Romance,Ridley Scott,1890798553.25,9.1,138
+4244,Galactic Storm,1998,Action,Steven Spielberg,1625821169.59,4.1,156
+4245,Into the Wild,1992,Horror,Steven Spielberg,797706031.5,8.4,82
+4246,Final Battle,1992,Comedy,Ridley Scott,1636381240.27,8.7,95
+4247,Revenge,1975,Horror,Greta Gerwig,1657304503.1,2.5,151
+4248,Into the Wild,2014,Horror,James Cameron,819093283.11,8.4,179
+4249,Revenge,1987,Action,James Cameron,1305151288.37,6.6,143
+4250,The Lost City,2014,Romance,Wes Anderson,1578552203.39,8.3,139
