@@ -172,23 +172,3 @@ if user_text.strip():
     sentiment_result = sentiment_analyzer(user_text)
     st.write("### Sentiment Result")
     st.write(sentiment_result)
-
-# --------------------------------------------------------------------------------
-# 8. CLOSING REMARKS
-# --------------------------------------------------------------------------------
-st.write("---")
-st.write("""
-**Congratulations!** You've just run an end-to-end blockchain-related data science 
-application using:
-- **pandas**, **numpy** for data wrangling,
-- **seaborn**, **matplotlib** for plotting,
-- **scikit-learn** for a simple ML model,
-- **Hugging Face Transformers** for sentiment analysis,
-- **Streamlit** for an interactive GUI.
-
-Feel free to extend this application:
-- Add more sophisticated forecasting models (ARIMA, LSTM, Prophet, etc.).
-- Improve the sentiment analysis with advanced NLP models.
-- Integrate real-time crypto price data via external APIs.
-- Explore more complex features or alternative blockchain datasets.
-""")
