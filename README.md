@@ -21,5 +21,3 @@ jupyter notebook
 ## License
 Academic use only
 <!-- updated: 2025-11-23-r01 -->
-
-
