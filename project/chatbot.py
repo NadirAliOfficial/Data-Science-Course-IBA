@@ -88,14 +88,14 @@ def main():
     if st.button("Send") and user_input.strip():
         # Classify the user input
         sentiment_label = classify_text(user_input)
-        
+
         # Add user query to history
         st.session_state.history.append(("You", user_input))
-        
+
         # Get a suitable response
         # In a real system, you might randomize or generate a dynamic response
         response = responses[sentiment_label][0]
-        
+
         # Add bot response to history
         st.session_state.history.append(("Bot", response))
 
