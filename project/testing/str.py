@@ -80,19 +80,19 @@ def flatten_multiindex_columns(df: pd.DataFrame) -> pd.DataFrame:
 
 def add_technical_indicators(df: pd.DataFrame) -> pd.DataFrame:
     """Adds technical indicators to the DataFrame."""
-    
+
     # Debug: Display DataFrame columns
     st.write("### DataFrame Columns Before Processing")
     st.write(df.columns.tolist())
-    
+
     # Handle MultiIndex columns
     df = flatten_multiindex_columns(df)
-    
+
     # Check for duplicate 'Close' columns
     close_columns = [col for col in df.columns if 'Close' in col]
     if len(close_columns) > 1:
         st.warning(f"Multiple 'Close' columns detected: {close_columns}. Using the first one.")
-    
+
     # Select the appropriate 'Close' column
     if 'Close' in df.columns:
         df['Close'] = df['Close']
@@ -101,41 +101,41 @@ def add_technical_indicators(df: pd.DataFrame) -> pd.DataFrame:
     else:
         st.error("No 'Close' column found in the data.")
         st.stop()
-    
+
     # Ensure 'Close' is a Series
     if isinstance(df['Close'], pd.DataFrame):
         st.warning("'Close' is a DataFrame with multiple columns. Selecting the first column.")
         df['Close'] = df['Close'].iloc[:, 0]
-    
+
     # Moving Averages
     df['MA_10'] = df['Close'].rolling(window=10).mean()
     df['MA_50'] = df['Close'].rolling(window=50).mean()
-    
+
     # Relative Strength Index (RSI)
     delta = df['Close'].diff()
     gain = (delta.where(delta > 0, 0)).rolling(window=14).mean()
     loss = (-delta.where(delta < 0, 0)).rolling(window=14).mean()
     RS = gain / loss
     df['RSI'] = 100 - (100 / (1 + RS))
-    
+
     # MACD
     ema_12 = df['Close'].ewm(span=12, adjust=False).mean()
     ema_26 = df['Close'].ewm(span=26, adjust=False).mean()
     df['MACD'] = ema_12 - ema_26
     df['MACD_Signal'] = df['MACD'].ewm(span=9, adjust=False).mean()
-    
+
     # Bollinger Bands
     df['BB_Middle'] = df['Close'].rolling(window=20).mean()
     df['BB_Upper'] = df['BB_Middle'] + 2 * df['Close'].rolling(window=20).std()
     df['BB_Lower'] = df['BB_Middle'] - 2 * df['Close'].rolling(window=20).std()
-    
+
     # Drop rows with NaN values created by indicators
     df.dropna(inplace=True)
-    
+
     # Debug: Display DataFrame columns after adding indicators
     st.write("### DataFrame Columns After Adding Technical Indicators")
     st.write(df.columns.tolist())
-    
+
     return df
 
 def train_models(df: pd.DataFrame):
@@ -411,7 +411,7 @@ if st.button("Fetch Real-Time Data"):
     if not real_time_df.empty:
         st.write("### Real-Time Data")
         st.dataframe(real_time_df.head())
-        
+
         # Plot Real-Time Close Price
         fig_rt = px.line(real_time_df, x='Timestamp', y='Close', title='Real-Time BTC Close Price')
         st.plotly_chart(fig_rt, use_container_width=True)
@@ -424,7 +424,7 @@ if st.button("Fetch Real-Time Data"):
 st.markdown("---")
 st.markdown(
     """
-    **Developed by:** Your Name  
+    **Developed by:** Your Name
     **Data Sources:** [Yahoo Finance](https://finance.yahoo.com/), [CoinGecko API](https://www.coingecko.com/en/api)
     """
 )
