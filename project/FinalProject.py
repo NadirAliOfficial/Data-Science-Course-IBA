@@ -359,12 +359,12 @@ forecast_steps = 30
 def recursive_forecast(model, last_time_steps, scaler, forecast_steps, feature_count):
     predictions_inv = []
     current_input = last_time_steps.copy()
-    
+
     for _ in range(forecast_steps):
         # Make prediction
         pred = model.predict(current_input)
         pred_value = pred[0, 0]  # Assuming single-step prediction
-        
+
         # Inverse transform the predicted 'Close' price
         pred_scaled = pred_value
         # Create a full feature array with 'Close' as predicted and others as last known
@@ -373,12 +373,12 @@ def recursive_forecast(model, last_time_steps, scaler, forecast_steps, feature_c
         pred_inv = scaler.inverse_transform(pred_full.reshape(1, -1))[:, 0]
         predicted_close = pred_inv[0]
         predictions_inv.append(predicted_close)
-        
+
         # Update the input for the next prediction
         # Replace 'Close' with the predicted value and keep other features unchanged
         new_step = np.concatenate(([pred_scaled], last_known)).reshape(1, 1, feature_count)
         current_input = np.concatenate((current_input[:, 1:, :], new_step), axis=1)
-    
+
     return predictions_inv
 
 # Prepare the latest data for prediction
@@ -443,7 +443,7 @@ else:
     # Plot the closing price for the entire date range
     plt.figure(figsize=(10, 6))
     plt.plot(data.index, data['Close'], label='AAPL Close', color='blue')
-    
+
     # Define highlight region: November 2023 to February 2024
     highlight_start = pd.to_datetime('2023-11-01')
     highlight_end   = pd.to_datetime('2024-02-29')  # or '2024-02-28'
@@ -451,7 +451,7 @@ else:
     # Shade the region between highlight_start and highlight_end
     # alpha controls the transparency of the shading
     plt.axvspan(highlight_start, highlight_end, color='yellow', alpha=0.3)
-    
+
     plt.title('AAPL Stock Price (Jan 2023 - Feb 2024) with Highlighted Region')
     plt.xlabel('Date')
     plt.ylabel('Price (USD)')
